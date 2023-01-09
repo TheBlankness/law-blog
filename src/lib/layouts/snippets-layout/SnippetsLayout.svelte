@@ -105,8 +105,8 @@
 		<div class="flex items-center">
 			<img
 				alt="{'Sveltekit Blogger'}"
-				src="{'/images/author/sveltekit-blogger.svg'}"
-				class="rounded-full w-7 h-7"
+				src="{'/images/author/LawKnight.svg'}"
+				class="w-7 h-7"
 			/>
 			<p class="text-sm text-gray-700 dark:text-gray-300 ml-2">
 				{author}

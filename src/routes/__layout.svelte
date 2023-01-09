@@ -73,8 +73,8 @@
 	<Header
 		on:toggleTheme="{(e) => toggleThemeMode(e)}"
 		navLinks="{navLinks}"
-		logoImage="{'/images/author/sveltekit-blogger.svg'}"
-		title="{'Sveltekit Blogger'}"
+		logoImage="{'/images/author/LawKnight.svg'}"
+		title="{'LawKnight'}"
 		useThemeModeButton="{true}"
 		useTitleAndLogo="{true}"
 	/>

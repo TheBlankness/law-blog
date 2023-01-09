@@ -42,25 +42,25 @@
 	 * @type {IMetaTagProperties}
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
-		title: `Sveltekit Blogger | Sveltekit`,
+		title: `Law Blog | lawcloud`,
 		description:
-			'Sveltekit starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable project. (sveltekit, typescript, tailwindcss, postcss, husky, Storybook).',
+			'The LawCloud Blog',
 		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter home'],
 	};
 
 	const projects: IProjectCard[] = [
 		{
-			title: 'Sveltekit Starter',
+			title: 'Coming Soon',
 			description:
-				'Sveltekit starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable web application.',
-			slug: 'https://github.com/navneetsharmaui/sveltekit-starter',
+				'Soon',
+			slug: 'https://github.com/TheBlankness',
 			icon: '',
 		},
 		{
-			title: 'Sveltekit Blog',
+			title: 'Coming Soon',
 			description:
-				'Sveltekit Blog starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable web application and blog.',
-			slug: 'https://github.com/navneetsharmaui/sveltekit-blog',
+				'Soon',
+			slug: 'https://github.com/TheBlankness',
 			icon: '',
 		},
 	];
@@ -78,10 +78,10 @@
 <!-- Start: Home Page container -->
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
 	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
-		Hey, I’m Sveltekit Blogger
+		Hey, I’m LawKnight
 	</h1>
 	<p class="prose text-gray-600 dark:text-gray-400 mb-16">
-		I'm a developer and creator. I work as the Software Developer at XYZ. You’ve found my personal slice of the
+		I'm a developer and creator. You’ve found my personal slice of the
 		internet –&nbsp; while you're here
 		<a sveltekit:prefetch href="/about" aria-label="about me" class="text-blue-700 hover:text-blue-800 transition"
 			>learn more about me.</a

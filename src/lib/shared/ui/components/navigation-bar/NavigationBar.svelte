@@ -44,15 +44,15 @@
 					aria-label="{title}"
 				>
 					<img
-						class="h-10 md:h-14 w-auto"
+						class="h-30 md:h-14 w-auto"
 						alt="Sveltekit Blogger"
 						loading="eager"
 						decoding="async"
-						width="3.5rem"
-						height="3.5rem"
+						width="4rem"
+						height="4rem"
 						src="{logoImage}"
 					/>
-					<span class="ml-3 text-lg"> Sveltekit Blogger </span>
+					<span class="ml-3 text-lg"> LawKnight </span>
 				</a>
 			</div>
 		{/if}

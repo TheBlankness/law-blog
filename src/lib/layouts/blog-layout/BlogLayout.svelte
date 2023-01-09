@@ -98,8 +98,8 @@
 		<div class="flex items-center">
 			<img
 				alt="{'Sveltekit Blogger'}"
-				src="{'/images/author/sveltekit-blogger.svg'}"
-				class="rounded-full w-7 h-7"
+				src="{'/images/author/LawKnightAuthor.svg'}"
+				class="w-9 h-9"
 			/>
 			<p class="text-sm text-gray-700 dark:text-gray-300 ml-2">
 				{author}
@@ -121,23 +121,7 @@
 		<p class="text-sm text-gray-700 dark:text-gray-300 mb-4">{'Share the article on'}</p>
 		<ShareButtons title="{title}" description="{description}" url="{`${environment.launchURL}/blog/${slug}`}" />
 	</div>
-	<div class="text-sm text-gray-700 dark:text-gray-300 mt-8">
-		<ExternalLink
-			href="{discussUrl}"
-			ariaLabel="{title}"
-			cssClasses="{'text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-500'}"
-		>
-			{'Discuss on Twitter'}
-		</ExternalLink>
-		{` • `}
-		<ExternalLink
-			href="{editUrl}"
-			ariaLabel="{title}"
-			cssClasses="{'text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-500'}"
-		>
-			{'Edit on GitHub'}
-		</ExternalLink>
-	</div>
+
 	{#if previousArticleLink || nextArticleLink}
 		<div class="mt-8 w-full">
 			<NextArticle previousHref="{previousArticleLink}" nextHref="{nextArticleLink}" />

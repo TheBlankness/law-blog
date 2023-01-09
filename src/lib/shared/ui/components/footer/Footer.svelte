@@ -16,22 +16,22 @@
 		</div>
 		<div class="flex flex-col space-y-4">
 			<ExternalLink
-				href="https://www.linkedin.com/in/asnavneetsharma/"
+				href="https://www.linkedin.com/in/Hzimimn/"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer LinkedIn link'}">LinkedIn</ExternalLink
 			>
 			<ExternalLink
-				href="https://github.com/navneetsharmaui"
+				href="https://github.com/TheBlankness"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer GitHub link'}">GitHub</ExternalLink
 			>
 			<ExternalLink
-				href="https://twitter.com/asnavneetsharma"
+				href="https://twitter.com/Hzimimn"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer Twitter link'}">Twitter</ExternalLink
 			>
 			<ExternalLink
-				href="https://www.instagram.com/asnavneetsharma/"
+				href="https://www.instagram.com/Hzimimn/"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer Instagram link'}">Instagram</ExternalLink
 			>
